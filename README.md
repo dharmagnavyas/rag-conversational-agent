@@ -60,7 +60,7 @@ For every question, the system shows:
 ---
 
 ## Project Structure
-
+```bash
 rag-pdf-chatbot/
 ├── app.py                 # Web UI (Flask)
 ├── main.py                # CLI entry point
@@ -73,7 +73,7 @@ rag-pdf-chatbot/
 ├── templates/             # HTML templates (if web UI is used)
 ├── requirements.txt       # Python dependencies
 └── README.md              # Project documentation
-
+```
 ---
 
 ## Setup
