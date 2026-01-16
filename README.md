@@ -103,4 +103,4 @@ What is the consolidated total income in H1-26?
 
 What drivers are mentioned for EBITDA changes?
 
-What is the CEO’s email address? → Not found in the document.
+What is the CEO’s email address?
