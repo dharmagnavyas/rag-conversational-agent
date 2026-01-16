@@ -77,6 +77,14 @@ rag-pdf-chatbot/
 ---
 
 ## Setup
+## Environment Variables & Model Configuration
+
+This project requires an OpenAI-compatible GPT API key to run.
+
+Create a `.env` file in the project root with the following:
+
+```env
+OPENAI_API_KEY=your_api_key_here
 
 ### 1. Install dependencies
 ```bash
