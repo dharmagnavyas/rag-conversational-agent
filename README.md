@@ -93,19 +93,7 @@ or (web UI)
 
 python app.py
 
-Acceptance Criteria Coverage
-
-✅ End-to-end runnable
-
-✅ Document-grounded answers with citations
-
-✅ Multi-turn conversation support
-
-✅ No hallucinations
-
-✅ Correct "Not found" behavior
-
-✅ Retrieval visibility for debugging
+---
 
 Example Questions
 
