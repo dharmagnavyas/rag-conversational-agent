@@ -62,18 +62,17 @@ For every question, the system shows:
 ## Project Structure
 
 rag-pdf-chatbot/
-│
-├── app.py # Web UI (Flask)
-├── main.py # CLI entry point
-├── chat_agent.py # Conversational logic
-├── pdf_processor.py # PDF text extraction
-├── chunker.py # Text chunking
-├── retriever.py # Retrieval logic (Chroma)
-├── download_sample.py # Download sample PDF
-├── test_acceptance.py # Acceptance tests
-├── templates/ # HTML templates (if used)
-├── requirements.txt
-├── README.md
+├── app.py                 # Web UI (Flask)
+├── main.py                # CLI entry point
+├── chat_agent.py          # Conversational logic (multi-turn, grounding)
+├── pdf_processor.py       # PDF text extraction (page-wise)
+├── chunker.py             # Text chunking + metadata (page, chunk id)
+├── retriever.py           # Retrieval logic (Chroma vector search)
+├── download_sample.py     # Download sample PDF for testing
+├── test_acceptance.py     # Acceptance tests
+├── templates/             # HTML templates (if web UI is used)
+├── requirements.txt       # Python dependencies
+└── README.md              # Project documentation
 
 ---
 
